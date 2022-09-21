@@ -1,0 +1,23 @@
+[tool.poetry]
+name = "mysimplepythonpackageexample"
+version = "0.1.0"
+description = ""
+authors = ["Yeldos Balgabekov <byeldos@amazon.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.9"
+unify = "^0.5"
+
+
+[tool.poetry.group.dev.dependencies]
+mypy = "^0.971"
+flake8 = "^5.0.4"
+isort = "^5.10.1"
+black = "^22.8.0"
+pylint = "^2.15.3"
+pytest = "^7.1.3"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
